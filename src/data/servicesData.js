@@ -23,3 +23,5 @@ const servicesData = [
         text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, odit?'
     }
 ]
+
+export default servicesData

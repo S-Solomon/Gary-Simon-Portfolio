@@ -20,7 +20,7 @@ const Hero = () => {
                     </g>
                 </svg>
             </div>
-            <svg xmlns="http://www.w3.org/2000/svg" width="686" height="688" viewBox="0 0 686 688">
+            <svg xmlns="http://www.w3.org/2000/svg" width="686" height="688" viewBox="0 0 686 688" className="hero-design">
                 <g id="blockdesign" transform="translate(-935 -289)">
                     <rect id="Rectangle_2" data-name="Rectangle 2" width="172" height="172" rx="19" transform="translate(1277 289)" fill="#6e00ff"/>
                     <rect id="Rectangle_10" data-name="Rectangle 10" width="172" height="172" rx="86" transform="translate(1277 461)" fill="#ff64cb"/>
@@ -40,4 +40,18 @@ const Hero = () => {
 export default Hero
 
 
-const HeroStyled = styled.div``;
+const HeroStyled = styled.div`
+    background: #6E00FF;
+    color: white;
+    display: grid;
+    text-align: center;
+    padding: 4em;
+
+    .content {
+
+    }
+
+    .hero-design {
+        display: none;
+    }
+`;

@@ -9,6 +9,11 @@ const GlobalStyle = createGlobalStyle`
         list-style: none;
     }
 
+    body {
+        height: 100vh;
+        font-family: 'poppins', sans-serif;
+    }
+
     a {
         text-decoration: none;
     }
@@ -19,7 +24,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     img {
-        ${'' /* width: 100%; */}
+        width: 100%;
     }
 `;
 

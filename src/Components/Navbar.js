@@ -47,12 +47,12 @@ const NavbarStyled = styled.div`
         }
         ul {
             display: flex;
-        a {
-            display: block;
-            padding: 0 1em;
+            a {
+                display: block;
+                padding: 0 1em;
+            }
         }
     }
-}
 `;
 
 const ContainerStyled = styled.div`
