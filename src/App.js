@@ -1,8 +1,11 @@
+import Hero from './Components/Hero';
+import Navbar from './Components/Navbar'
 
 function App() {
   return (
     <div className="App">
-      <h1>react js</h1>
+      <Navbar />
+      <Hero />
     </div>
   );
 }
