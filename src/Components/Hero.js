@@ -16,7 +16,7 @@ const Hero = () => {
                             <rect width="40" height="77" rx="20" stroke="none"/>
                             <rect x="2" y="2" width="36" height="73" rx="18" fill="none"/>
                         </g>
-                        <circle id="Ellipse_1" data-name="Ellipse 1" cx="11" cy="11" r="11" transform="translate(262 798)" fill="#fff"/>
+                        <circle className="circle" id="Ellipse_1" data-name="Ellipse 1" cx="11" cy="11" r="11" transform="translate(262 798)" fill="#fff"/>
                     </g>
                 </svg>
             </div>
@@ -100,5 +100,11 @@ const HeroStyled = styled.div`
             margin-top: 15%;
             width: 100%;
         }
+    }
+
+
+
+    .circle {
+        animation: circleAnim 1s infinite alternate-reverse;
     }
 `;

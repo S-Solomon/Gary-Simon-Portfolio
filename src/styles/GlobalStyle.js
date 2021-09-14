@@ -40,6 +40,17 @@ const GlobalStyle = createGlobalStyle`
             padding: 6em 20em 4em 20em;
         }
     }
+
+    // Animations
+    @keyframes circleAnim {
+        from {
+            transform: translate(262px, 798px);
+            z-index: 5;
+        }
+        to {
+            transform: translate(262px, 830px);
+        }
+    }
 `;
 
 
