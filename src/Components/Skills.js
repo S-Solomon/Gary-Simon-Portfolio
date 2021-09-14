@@ -66,4 +66,12 @@ const SkillStytled= styled.section`
             }
         }
     }
+    @media(min-width: 800px) {
+        margin-top: -5rem;
+        margin-bottom: -7rem;
+        padding-top: 7rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
 `;

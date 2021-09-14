@@ -53,4 +53,25 @@ const ProjectStyled = styled.section`
             }
         }
     }
+    @media (min-width: 800px) {
+        .projectContainer {
+            display: grid;
+            text-align: left;
+            grid-template-columns: 40% auto;
+            padding-top: 2rem;
+            .projectLeft {
+                display: grid;
+                place-content: center;
+            }
+            a {
+                img {
+                    margin-left: 2rem;
+                    float: right;
+                    max-width: 500px;
+                }
+            }
+        }
+        
+    }
+
 `;

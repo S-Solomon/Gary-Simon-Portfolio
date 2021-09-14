@@ -53,8 +53,43 @@ const NavbarStyled = styled.div`
             }
         }
     }
+    @media(min-width: 1050px) {
+        display: grid;
+        grid-template-columns: 66% auto;
+        background: unset;
+        header {
+            background: #6700EE;
+            padding: 2rem 2rem 2rem 4rem;
+            @media(min-width: 1250px) {
+                padding: 2em 2em 2em 10em;
+            }
+            @media(min-width: 1550px) {
+                padding: 2em 2em 2em 20em;
+            }
+            
+        }
+    }
 `;
 
 const ContainerStyled = styled.div`
     display: none;
+    @media(min-width: 1050px) {
+        padding: 2rem 4rem 2rem 0;
+        display: block;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            width: 7rem;
+            float: right;
+            img {
+                width: 20px;
+            }
+        }
+    }
+    @media(min-width: 1250px) {
+        padding: 2em 10em 2em 0;
+    }
+    @media(min-width: 1550px) {
+        padding: 2em 20em 2em 0;
+    }
 `;

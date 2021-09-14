@@ -68,4 +68,37 @@ const HeroStyled = styled.div`
     .hero-design {
         display: none;
     }
+
+    @media(min-width: 1050px) {
+        height: 90vh;
+        grid-template-columns: 66% auto;
+        background: unset;
+        padding: 0;
+        .content {
+            background: #6E00FF;
+            padding: 6em 8em 6em 4em;
+            text-align: left;
+            @media(min-width: 1250px) {
+                padding: 6em 8em 6em 10em;
+            }
+            @media(min-width: 1550px) {
+                padding: 9em 20em 6em 20em;
+            }
+            h1 {
+                font-size: 3rem;
+                line-height: 1.2em;
+                max-width: 450px;
+            }
+            .meet {
+                margin: unset;
+                padding-top: 1.5rem;
+            }
+        }
+        .hero-design {
+            display: unset;
+            margin-left: -50%;
+            margin-top: 15%;
+            width: 100%;
+        }
+    }
 `;

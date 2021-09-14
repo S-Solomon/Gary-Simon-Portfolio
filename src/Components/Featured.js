@@ -57,4 +57,17 @@ const FeaturedStyled = styled.section`
         font-weight: 500;
         padding: 1.5rem 0;
     }
+    @media (min-width: 800px) {
+        display: grid;
+        text-align: left;
+        grid-template-columns: 40% auto;
+        .left {
+            display: grid;
+            place-content: center;
+        }
+        .right {
+            margin-left: 2em;
+            margin-top: 1em;
+        }
+    }
 `;

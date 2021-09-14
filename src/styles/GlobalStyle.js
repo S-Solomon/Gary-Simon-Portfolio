@@ -30,6 +30,15 @@ const GlobalStyle = createGlobalStyle`
     section {
         padding: 4em 2em;
         text-align: center;
+        @media(min-width: 1050px) {
+            padding: 4rem;
+        }
+        @media(min-width: 1250px) {
+            padding: 10em 10em 4em 10em;
+        }
+        @media(min-width: 1550px) {
+            padding: 6em 20em 4em 20em;
+        }
     }
 `;
 
