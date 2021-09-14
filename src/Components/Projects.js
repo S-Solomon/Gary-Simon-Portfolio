@@ -7,11 +7,11 @@ const Projects = () => {
         <ProjectStyled>
             {
                 projectData.map((data => (
-                    <div className="project-container transition3" key={data.id}>
-                        <div className="project-left">
+                    <div className="projectContainer transition3" key={data.id}>
+                        <div className="projectLeft">
                             <div className="inner">
                                 <p className="subtitle">{data.subtitle}</p>
-                                <p className="featured-title">{data.title}</p>
+                                <p className="title">{data.title}</p>
                                 <p className="featured-desc">{data.para}</p>
                             </div>
                         </div>
@@ -28,4 +28,29 @@ const Projects = () => {
 export default Projects
 
 
-const ProjectStyled = styled.section``;
+const ProjectStyled = styled.section`
+    background: #F7F7F7;
+    .projectContainer {
+        margin-bottom: 4rem;
+        .projectLeft {
+            .inner{
+                .subtitle {
+                    color: #6E00FF;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 0.85rem;
+                }
+                .title {
+                    font-weight: bold;
+                    font-size: 1.3em;
+                }
+            }
+        }
+        a {
+            img {
+                border-radius: 1em;
+                margin-top: 1rem;
+            }
+        }
+    }
+`;
