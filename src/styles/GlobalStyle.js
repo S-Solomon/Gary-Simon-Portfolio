@@ -26,6 +26,11 @@ const GlobalStyle = createGlobalStyle`
     img {
         width: 100%;
     }
+
+    section {
+        padding: 4em 2em;
+        text-align: center;
+    }
 `;
 
 

@@ -10,7 +10,7 @@ const Hero = () => {
                     <span>👇</span>
                     <p>Meet Gary Simon</p>
                 </div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="77" viewBox="0 0 40 77">
+                <svg className="scroll" xmlns="http://www.w3.org/2000/svg" width="40" height="77" viewBox="0 0 40 77">
                     <g id="scroll" transform="translate(-253 -787)">
                         <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(253 787)" fill="none" stroke="#fff" strokeWidth="4">
                             <rect width="40" height="77" rx="20" stroke="none"/>
@@ -48,7 +48,21 @@ const HeroStyled = styled.div`
     padding: 4em;
 
     .content {
-
+        .meet {
+            display: flex;
+            margin: 0 auto;
+            width: 200px;
+            font-weight: bold;
+            color: #FF64CB;
+            margin-top: 1.5rem;
+            span {
+                padding-right: 1rem;
+            }
+        }
+        .scroll {
+            width: 30px;
+            margin-top: 1.5rem ;
+        }
     }
 
     .hero-design {
