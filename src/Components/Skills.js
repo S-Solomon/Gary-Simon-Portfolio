@@ -27,4 +27,43 @@ const Skills = () => {
 export default Skills
 
 
-const SkillStytled= styled.section``;
+const SkillStytled= styled.section`
+    background: #FF64CB;
+    .skillsContainer {
+        &:first-child {
+            img {
+                width: 50px;
+            }
+            .skill-title {
+                padding: 1rem 0 .5;
+            }
+        }
+        &:nth-child(2) {
+            img {
+                width: 140px;
+            }
+        }
+        &:nth-child(3) {
+            img {
+                width: 60px;
+            }
+        }
+        ul {
+            li {
+                background: white;
+                padding: 2em;
+                border-radius: 1em;
+                margin-bottom: 1em;
+                .iconContainer {
+                    height: 100px;
+                    display: grid;
+                    place-content: center;
+                    margin: 0 auto;
+                }
+                .skill-title {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+`;
